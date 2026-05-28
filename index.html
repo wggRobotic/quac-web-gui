@@ -1,0 +1,204 @@
+
+Quac
+RoboCup 2026 · WebSocket
+BRIDGE
+ws://10.42.0.1:9090
+VERBINDEN
+
+Getrennt
+⬛ STOP
+JOYSTICK
+
+W
+A
+S
+D
+Q
+E
+SPC
+D-PAD
+
+▲
+
+◀ STP ▶ ↺ ▼ ↻
+GESCHWINDIGKEIT
+LIN X
+0.00
+ANG Z
+0.00
+LIN Y
+0.00
+POSE θ
+0.0°
+ROBOTER-STATUS
+Batterie
+— %
+
+Latenz
+— ms
+CPU
+— %
+RAM
+—
+AKTIVE TOPICS
+▼
+/quac/cmd_vel
+0 Hz
+/quac/odom
+0 Hz
+/quac/battery
+0 Hz
+/imu/mag
+0 Hz
+/thermal/image
+0 Hz
+/scan
+0 Hz
+ROS2 TOPICS
+▼
+cmd_vel
+/quac/cmd_vel
+Odom
+/quac/odom
+GESCHW.-LIMITS
+▼
+Max. Linear (m/s)
+0.50
+Max. Angular (rad/s)
+1.00
+Pub-Rate (Hz)
+10
+SYSTEMLOG
+▼
+
+LOG LEEREN
+FRONTKAMERA (REALSENSE RGB)
+OFFLINE
+START
+📷
+⛶
+
+FRONTKAMERA INAKTIV
+
+
+
+
+FRONT
+0 FPS
+
+REC
+URL
+http://10.42.0.1:8080/stream?topic=/camera/color/image_raw
+MJPEGSnapshot
+RÜCKKAMERA (REALSENSE FISHEYE)
+OFFLINE
+START
+📷
+⛶
+
+RÜCKKAMERA INAKTIV
+
+
+
+
+REAR
+0 FPS
+
+REC
+URL
+http://10.42.0.1:8080/stream?topic=/camera/fisheye/image_raw
+MJPEGSnapshot
+🌡️ WÄRMEBILD (MLX90640)
+OFFLINE
+START
+📷
+⛶
+
+
+WÄRMEBILD INAKTIV
+
+
+
+
+THERMAL
+0 FPS
+
+REC
+HOT
+
+COLD
+URL
+http://10.42.0.1:8080/stream?topic=/thermal/image
+MJPEGSnapshot
+🦾 GRIPPER
+90°
+▼
+GREIFARM · ID 1
+90
+GRAD
+0°
+180°
+90°
+0°
+
+180°
+Offen
+Geschlossen
+0°
+45°
+90°
+135°
+180°
+Topic
+/servo/1/goal_position
+SENDEN
+⚡ STACHEL
+0°
+▼
+STACHEL · ID 2
+0
+GRAD
+0°
+180°
+0°
+0°
+
+180°
+Eingefahren
+Ausgefahren
+0°
+45°
+90°
+135°
+180°
+Topic
+/servo/2/goal_position
+SENDEN
+🦾 ARM IK — INVERSE KINEMATIK
+—
+▼
+SCHULTER Θ₁
+90
+GRAD · ID 3
+ELLBOGEN Θ₂
+90
+GRAD · ID 4
+ZIEL SETZEN
+X (vor/zurück)
+0.0
+Y (hoch/runter)
+0.0
+
+→ X
+↑ Y
+ARMLÄNGEN (CM)
+Oberarm L₁
+
+Unterarm L₂
+
+Schulter
+/servo/3/goal_position
+Ellbogen
+/servo/4/goal_position
+HOME
+SENDEN
